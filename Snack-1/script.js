@@ -39,5 +39,5 @@ for (let i = 0; i < bikes.length; i++) {
 const {nome, peso} = lightBike;
 console.log(`La bici più leggera è la ${nome} e il suo peso è ${peso}kg`);
 
-// console.log(lightBike);
+console.log(lightBike);
    
