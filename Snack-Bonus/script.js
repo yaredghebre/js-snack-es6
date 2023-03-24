@@ -5,3 +5,14 @@
 // es: 
 // const numbersArray = [23, 14, 6, 8, 10];
 // const newArray = getSubArray(numbersArray, 1, 3) ---> [14, 6, 8]
+
+const numbers = [23, 14, 6, 8, 10];
+
+const newNumbers = selectNumbers(numbers);
+console.log(newNumbers);
+
+// FUNZIONE
+function selectNumbers (numbersArray) {
+    return numbersArray.filter((item, index) => index >= 1 && index <= 3);
+}
+
